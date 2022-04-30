@@ -2,7 +2,6 @@ header {
     background: #c6e4ff;
     nav {
         >.left-side {
-            img {}
             li>a {
                 color: #000;
             }
@@ -26,6 +25,18 @@ header {
             }
             >p {
                 color: rgb(85, 85, 85)
+            }
+            .doctor-profile,
+            .patient-profile {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                background-color: darkturquoise;
+            }
+            .doctor-profile:hover,
+            .patient-profile:hover {
+                border-radius: 1rem;
+                cursor: pointer;
             }
         }
     }

@@ -24,4 +24,25 @@ header section div > h2 {
 header section div > p {
   color: #555555;
 }
+
+header section div .doctor-profile,
+header section div .patient-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: darkturquoise;
+}
+
+header section div .doctor-profile:hover,
+header section div .patient-profile:hover {
+  border-radius: 1rem;
+  cursor: pointer;
+}
 /*# sourceMappingURL=custom.css.map */
