@@ -1,0 +1,32 @@
+header {
+    background: #c6e4ff;
+    nav {
+        >.left-side {
+            img {}
+            li>a {
+                color: #000;
+            }
+            li>a:hover {
+                color: #2196f3
+            }
+        }
+        >.right-side {
+            button:hover,
+            button:nth-child(2) {
+                background-color: #3f51b5;
+                color: white
+            }
+        }
+    }
+    section {
+        div {
+            >h2 {
+                color: black;
+                font-weight: 600;
+            }
+            >p {
+                color: rgb(85, 85, 85)
+            }
+        }
+    }
+}
