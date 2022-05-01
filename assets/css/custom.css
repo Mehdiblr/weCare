@@ -1,5 +1,6 @@
 header {
   background: #c6e4ff;
+  padding-bottom: 15rem;
 }
 
 header nav > .left-side li > a {
@@ -44,5 +45,123 @@ header section div .doctor-profile:hover,
 header section div .patient-profile:hover {
   border-radius: 1rem;
   cursor: pointer;
+}
+
+section#search div.search-box {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 3rem;
+  margin-top: -10rem;
+}
+
+section#search div.search-box h4 {
+  font-weight: 600;
+}
+
+section#search div.search-box .search-inputs form {
+  grid-auto-flow: column;
+  -ms-grid-columns: 4fr 4fr 1fr;
+      grid-template-columns: 4fr 4fr 1fr;
+  gap: 1rem;
+}
+
+section#search div.search-box .search-inputs form div.form-group {
+  display: inherit;
+  position: relative;
+}
+
+section#search div.search-box .search-inputs form div.form-group i {
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  color: #b9b9b9;
+  font-size: 2rem;
+}
+
+section#search div.search-box .search-inputs form input[type=text] {
+  outline: 0;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  color: #001120;
+  padding-left: 3rem;
+  background-color: aliceblue;
+}
+
+section#search div.search-box .search-inputs form input[type=text]::-webkit-input-placeholder {
+  color: #ced1ff;
+}
+
+section#search div.search-box .search-inputs form input[type=text]:-ms-input-placeholder {
+  color: #ced1ff;
+}
+
+section#search div.search-box .search-inputs form input[type=text]::-ms-input-placeholder {
+  color: #ced1ff;
+}
+
+section#search div.search-box .search-inputs form input[type=text]::placeholder {
+  color: #ced1ff;
+}
+
+section#search div.search-box .search-inputs form button {
+  background-color: #3f51b5;
+  color: whitesmoke;
+}
+
+section#search .search-hashtags {
+  -ms-grid-columns: 11fr 1fr;
+      grid-template-columns: 11fr 1fr;
+}
+
+section#search .search-hashtags span {
+  background-color: aliceblue;
+  border-radius: 0.3rem;
+}
+
+section#search .search-hashtags span:hover {
+  cursor: pointer;
+  background-color: #00bcd4;
+}
+
+section#search .search-hashtags button {
+  background-color: #3f51b5;
+  color: white;
+}
+
+#people-search {
+  margin: 15rem 0;
+  padding-left: 5rem;
+}
+
+#people-search h2 {
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+#people-search .roll-box {
+  margin: 2rem 0;
+  padding: 1rem 0;
+}
+
+#people-search .roll-box > ul {
+  border-right: 3px solid blueviolet;
+  padding-right: 2rem;
+  font-size: 2rem;
+}
+
+#people-search .roll-box > ul li.active {
+  font-weight: 600;
+}
+
+#people-search .roll-box .roll-image {
+  color: #001120;
+  background: white;
+  border-radius: 0.6rem;
+  margin: 0 0.7rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=custom.css.map */

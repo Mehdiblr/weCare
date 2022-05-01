@@ -140,6 +140,12 @@ a {
           align-items: center;
 }
 
+.align-items-stretch {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
 .pt-1 {
   padding-top: 1rem;
 }

@@ -1,5 +1,6 @@
 header {
     background: #c6e4ff;
+    padding-bottom: 15rem;
     nav {
         >.left-side {
             li>a {
@@ -38,6 +39,95 @@ header {
                 border-radius: 1rem;
                 cursor: pointer;
             }
+        }
+    }
+}
+
+section#search {
+    div.search-box {
+        background-color: white;
+        border-radius: 2rem;
+        padding: 3rem;
+        margin-top: -10rem;
+        h4 {
+            font-weight: 600;
+        }
+        .search-inputs {
+            form {
+                grid-auto-flow: column;
+                grid-template-columns: 4fr 4fr 1fr;
+                gap: 1rem;
+                div.form-group {
+                    display: inherit;
+                    position: relative;
+                    i {
+                        position: absolute;
+                        top: 30%;
+                        left: 2%;
+                        color: #b9b9b9;
+                        font-size: 2rem;
+                    }
+                }
+                input[type=text] {
+                    outline: 0;
+                    border: 1px solid #eee;
+                    border-radius: 1rem;
+                    color: #001120;
+                    padding-left: 3rem;
+                    background-color: aliceblue;
+                }
+                input[type=text]::placeholder {
+                    color: #ced1ff
+                }
+                button {
+                    background-color: #3f51b5;
+                    color: whitesmoke
+                }
+            }
+        }
+    }
+    .search-hashtags {
+        grid-template-columns: 11fr 1fr;
+        span {
+            background-color: aliceblue;
+            border-radius: 0.3rem;
+        }
+        span:hover {
+            cursor: pointer;
+            background-color: #00bcd4;
+        }
+        button {
+            background-color: #3f51b5;
+            color: white;
+        }
+    }
+}
+
+#people-search {
+    margin: 15rem 0;
+    padding-left: 5rem;
+    h2 {
+        font-weight: 600;
+        font-size: 5rem;
+    }
+    .roll-box {
+        margin: 2rem 0;
+        padding: 1rem 0;
+        >ul {
+            border-right: 3px solid blueviolet;
+            padding-right: 2rem;
+            font-size: 2rem;
+            li.active {
+                font-weight: 600;
+            }
+        }
+        .roll-image {
+            color: #001120;
+            background: white;
+            border-radius: 0.6rem;
+            margin: 0 0.7rem;
+            align-content: center;
+            align-items: center;
         }
     }
 }
