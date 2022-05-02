@@ -295,4 +295,88 @@ section#search .search-hashtags button {
   background-color: #3f51b5;
   color: white;
 }
+
+#why-choose {
+  margin: 8rem 0;
+  background-color: #f0f4ff;
+}
+
+#why-choose .why-choose-section {
+  padding: 7rem 0;
+}
+
+#why-choose .why-choose-section .left-side {
+  position: relative;
+  background-image: url(../img/why-choose/1.png);
+  background-clip: content-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#why-choose .why-choose-section .left-side ul {
+  padding: 1rem;
+  position: absolute;
+  top: 289px;
+  right: 47px;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+#why-choose .why-choose-section .left-side ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.4rem;
+}
+
+#why-choose .why-choose-section .left-side ul li > i {
+  padding: 0 1rem;
+}
+
+#why-choose .why-choose-section .left-side ul li:hover {
+  background-color: darkturquoise;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+#why-choose .why-choose-section .right-side {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#why-choose .why-choose-section .right-side > h3 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+#why-choose .why-choose-section .right-side > p {
+  color: #99bdff;
+  padding: 2rem 0;
+  font-size: 1.8rem;
+}
+
+#why-choose .why-choose-section .right-side > ul {
+  margin-bottom: 3rem;
+}
+
+#why-choose .why-choose-section .right-side > ul > li {
+  padding: 0.3rem 0;
+  font-size: 2rem;
+}
+
+#why-choose .why-choose-section .right-side > ul > li i {
+  padding-right: 0.5rem;
+  color: blue;
+  font-size: 3.5rem;
+}
+
+#why-choose .why-choose-section .right-side button {
+  background-color: #3f51b5;
+  color: white;
+}
 /*# sourceMappingURL=custom.css.map */
