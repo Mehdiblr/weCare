@@ -246,4 +246,53 @@ section#search .search-hashtags button {
   margin-left: 2.6rem;
   margin-top: 1rem;
 }
+
+#find-doctor .find-doctor-image {
+  position: relative;
+  background-image: url(../img/find-doctor/1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: azure;
+}
+
+#find-doctor .find-doctor-image .find-doctor-form {
+  width: 24rem;
+  background: WHITE;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #eee;
+  position: absolute;
+  bottom: 133px;
+  left: -65px;
+}
+
+#find-doctor .find-doctor-image .find-doctor-form > h3 {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+#find-doctor .find-doctor-image .find-doctor-form .form-group > input {
+  width: 100%;
+  outline: 0;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  color: #001120;
+  padding-left: 3rem;
+  background-color: aliceblue;
+  margin: 0.3rem 0;
+  font-family: inherit;
+}
+
+#find-doctor .find-doctor-image .find-doctor-form .form-group > i {
+  position: absolute;
+  left: 13px;
+  font-size: 2rem;
+  padding: 1.3rem 0.5rem;
+  color: #d7d7d7;
+}
+
+#find-doctor .find-doctor-image .find-doctor-form > button {
+  background-color: #3f51b5;
+  color: white;
+}
 /*# sourceMappingURL=custom.css.map */
