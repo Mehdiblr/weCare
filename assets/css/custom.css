@@ -17,17 +17,17 @@ header nav > .right-side button:nth-child(2) {
   color: white;
 }
 
-header section div > h2 {
+header section div.left-side > h2 {
   color: black;
   font-weight: 600;
 }
 
-header section div > p {
+header section div.left-side > p {
   color: #555555;
 }
 
-header section div .doctor-profile,
-header section div .patient-profile {
+header section div.left-side .doctor-profile,
+header section div.left-side .patient-profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,10 +41,20 @@ header section div .patient-profile {
   background-color: darkturquoise;
 }
 
-header section div .doctor-profile:hover,
-header section div .patient-profile:hover {
+header section div.left-side .doctor-profile:hover,
+header section div.left-side .patient-profile:hover {
   border-radius: 1rem;
   cursor: pointer;
+}
+
+header section div.right-side {
+  background-image: url(../img/header.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin-bottom: -15rem;
+  background-size: contain;
 }
 
 section#search div.search-box {
@@ -129,7 +139,7 @@ section#search .search-hashtags button {
 }
 
 #people-search {
-  margin: 15rem 0;
+  margin: 8rem 0;
   padding-left: 5rem;
 }
 
@@ -154,6 +164,7 @@ section#search .search-hashtags button {
 }
 
 #people-search .roll-box .roll-image {
+  width: 15rem;
   color: #001120;
   background: white;
   border-radius: 0.6rem;
@@ -163,5 +174,76 @@ section#search .search-hashtags button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#people-search .roll-box .roll-image:hover {
+  cursor: pointer;
+  border: 3px solid blue;
+  background-color: azure;
+}
+
+#find-doctor {
+  margin: 8rem 0;
+}
+
+#find-doctor .find-doctor-text > h4 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+#find-doctor .find-doctor-text > p {
+  font-size: 2.1rem;
+  margin: 2rem 0;
+  color: #555555;
+}
+
+#find-doctor .find-doctor-text > .find-doctor-steps .find-doctor-step {
+  margin: 0.6rem 0;
+  -ms-grid-columns: 1fr 8fr;
+      grid-template-columns: 1fr 8fr;
+}
+
+#find-doctor .find-doctor-text > .find-doctor-steps .find-doctor-step > i {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+#find-doctor .find-doctor-text > .find-doctor-steps .find-doctor-step > h4 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+#find-doctor .find-doctor-text > .find-doctor-steps .find-doctor-step > div {
+  border-left: 3px solid #a5a5a5;
+  margin-left: 2.6rem;
+  margin-top: 1rem;
+}
+
+#find-doctor .find-doctor-text > .find-doctor-steps .find-doctor-step:nth-child(1) i {
+  background-color: #673ab7;
+  color: #dbc7ff;
+}
+
+#find-doctor .find-doctor-text > .find-doctor-steps .find-doctor-step:nth-child(2) i {
+  background-color: #3a88b5;
+  color: #d7f1ff;
+}
+
+#find-doctor .find-doctor-text > .find-doctor-steps .find-doctor-step:nth-child(3) i {
+  background-color: #3ab772;
+  color: #e4fff0;
+}
+
+#find-doctor .find-doctor-text > .find-doctor-steps .find-doctor-step:last-child > div {
+  border-left: none;
+  margin-left: 2.6rem;
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=custom.css.map */
