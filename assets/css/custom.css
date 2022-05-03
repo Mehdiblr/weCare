@@ -379,4 +379,152 @@ section#search .search-hashtags button {
   background-color: #3f51b5;
   color: white;
 }
+
+#meet-specialist {
+  padding: 8rem 0;
+  background-color: white;
+}
+
+#meet-specialist .meet-specialist-section {
+  text-align: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+#meet-specialist .meet-specialist-section > .specialist-list {
+  padding: 1rem 0;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+#meet-specialist .meet-specialist-section > .specialist-list > div {
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  background-color: #f3f3f3;
+}
+
+#meet-specialist .meet-specialist-section > .specialist-list > div > img {
+  border-radius: 0.5rem;
+  width: 100%;
+  background: #cbcbcb;
+}
+
+#meet-specialist .meet-specialist-section > .specialist-list > div > h5 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#meet-specialist .meet-specialist-section > .specialist-list > div:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0 0 7px 0px #0000008a;
+          box-shadow: 0 0 7px 0px #0000008a;
+}
+
+#meet-specialist .meet-specialist-section > .specialist-list > div:hover > img {
+  background: #cde1e0;
+}
+
+#patients-feedback {
+  text-align: center;
+  padding: 8rem 0;
+  background-color: aliceblue;
+}
+
+#patients-feedback .patients-feedback-section {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#patients-feedback .patients-feedback-section > h3 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+#patients-feedback .patients-feedback-section > p {
+  font-size: 2.1rem;
+  color: #a9a9a9;
+}
+
+#patients-feedback .patients-feedback-section > .patients-info {
+  padding: 3rem 0;
+}
+
+#patients-feedback .patients-feedback-section .patients-info .left-side {
+  position: relative;
+}
+
+#patients-feedback .patients-feedback-section .patients-info .left-side > img {
+  width: 25rem;
+  background: cornsilk;
+  position: absolute;
+  z-index: 4;
+}
+
+#patients-feedback .patients-feedback-section .patients-info .left-side > .back-patient {
+  position: absolute;
+  padding: 10rem;
+  background: bisque;
+  top: 5rem;
+  left: 20rem;
+  z-index: 5;
+}
+
+#patients-feedback .patients-feedback-section .patients-info .right-side .patient-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 28rem;
+  justify-items: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+      grid-template-areas: 'img pname' 'img ploc' 'img prate';
+}
+
+#patients-feedback .patients-feedback-section .patients-info .right-side .patient-card > img {
+  width: 10rem;
+  border-radius: 3rem;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: img;
+}
+
+#patients-feedback .patients-feedback-section .patients-info .right-side .patient-card > h6 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: pname;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#patients-feedback .patients-feedback-section .patients-info .right-side .patient-card > span {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: ploc;
+  color: #c3c3c3;
+}
+
+#patients-feedback .patients-feedback-section .patients-info .right-side .patient-card .patient-rate {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: prate;
+}
+
+#patients-feedback .patients-feedback-section .patients-info .right-side .patient-card .patient-rate i {
+  color: yellow;
+}
+
+#patients-feedback .patients-feedback-section .patients-info .right-side > p {
+  padding: 1.6rem 0;
+  text-align: left;
+  font-size: 2rem;
+  color: #767676;
+}
 /*# sourceMappingURL=custom.css.map */

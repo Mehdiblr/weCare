@@ -321,3 +321,115 @@ section#search {
         }
     }
 }
+
+#meet-specialist {
+    padding: 8rem 0;
+    background-color: white;
+    .meet-specialist-section {
+        text-align: center;
+        grid-template-columns: 1fr;
+        >.specialist-list {
+            padding: 1rem 0;
+            grid-template-columns: repeat(4, 1fr);
+            >div {
+                border-radius: 0.5rem;
+                padding: 0.6rem;
+                background-color: #f3f3f3;
+                >img {
+                    border-radius: 0.5rem;
+                    width: 100%;
+                    background: #cbcbcb;
+                }
+                >h5 {
+                    font-size: 2rem;
+                    font-weight: 600;
+                }
+            }
+            >div:hover {
+                cursor: pointer;
+                transform: translateY(-10px);
+                box-shadow: 0 0 7px 0px #0000008a;
+                >img {
+                    background: #cde1e0;
+                }
+            }
+        }
+    }
+}
+
+#patients-feedback {
+    text-align: center;
+    padding: 8rem 0;
+    background-color: aliceblue;
+    .patients-feedback-section {
+        align-items: stretch;
+        justify-content: center;
+        >h3 {
+            font-size: 6rem;
+            font-weight: 600;
+        }
+        >p {
+            font-size: 2.1rem;
+            color: #a9a9a9;
+        }
+        >.patients-info {
+            padding: 3rem 0
+        }
+        .patients-info {
+            .left-side {
+                position: relative;
+                >img {
+                    width: 25rem;
+                    background: cornsilk;
+                    position: absolute;
+                    z-index: 4;
+                }
+                >.back-patient {
+                    position: absolute;
+                    padding: 10rem;
+                    background: bisque;
+                    top: 5rem;
+                    left: 20rem;
+                    z-index: 5;
+                }
+            }
+            .right-side {
+                .patient-card {
+                    background-color: white;
+                    padding: 1rem;
+                    border-radius: 2rem;
+                    width: 28rem;
+                    justify-items: start;
+                    align-items: center;
+                    grid-template-areas: 'img pname' 'img ploc' 'img prate';
+                    >img {
+                        width: 10rem;
+                        border-radius: 3rem;
+                        grid-area: img;
+                    }
+                    >h6 {
+                        grid-area: pname;
+                        font-size: 2rem;
+                        font-weight: 600;
+                    }
+                    >span {
+                        grid-area: ploc;
+                        color: #c3c3c3;
+                    }
+                    .patient-rate {
+                        grid-area: prate;
+                        i {
+                            color: yellow
+                        }
+                    }
+                }
+                >p {
+                    padding: 1.6rem 0;
+                    text-align: left;
+                    font-size: 2rem;
+                    color: #767676;
+                }
+            }
+        }
+    }
+}
